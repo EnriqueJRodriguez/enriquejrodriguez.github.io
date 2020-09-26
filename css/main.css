@@ -68,7 +68,7 @@ a:hover {
 }
 
 #inicio {
-	background: url("../images/fondo.jpg") repeat scroll center / cover;
+	background: url("../images/bmw.jpeg") repeat scroll center / cover;
 	height: 100vh;
 }
 
@@ -487,7 +487,7 @@ section {
 	width: 100%;
 }
 
-}
+
 #vdimgct {
 	width: 100%;
 	padding: 2em 0em;
@@ -495,9 +495,9 @@ section {
 #vdimagen {
 	width: 100%;
 }
-#cita,
-#autorcita {
+#cita, #autorcita {
 	text-align: center;
+	
 }
 #cita {
 	margin: 1em;
@@ -564,7 +564,11 @@ section {
 
 footer {
 	text-align: center;
-	background: snow;
+	z-index: 1000;
+	background-image:linear-gradient(to right, rgb(61, 125, 221), rgb(142, 230, 230));
+	width: 100%;
+	overflow: hidden;
+	color: white;
 }
 #descvideo {
 	text-align: center;
