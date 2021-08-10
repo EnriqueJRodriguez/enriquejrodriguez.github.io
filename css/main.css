@@ -369,11 +369,48 @@ section {
 	}
 }
 
-#experiencia {
+#experiencia, #premios, #recomendaciones {
 	display: flex;
 	line-height: 1.4em;
 	font-size: 1.0em;
 	margin: 0 1.5em;
+}
+
+#recomendaciones{
+	float: center;
+	position: relative;
+	display: block;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+table{
+	width:100%; 
+	display: block;
+	margin-bottom: 2em;
+}
+
+#premios article{
+	width: 100%;
+}
+
+#premios article table{
+	width: 70%;
+	float: center;
+	position: relative;
+	display: block;
+	margin-right:15%;
+	margin-left:15%;
+}
+
+#premios article h3{
+	margin-left: 10%;
+}
+
+table b{
+	font-weight: bolder;
+	font-size: larger;
+	color: black;
 }
 
 #experiencia h4 {
@@ -391,11 +428,18 @@ section {
 	display: block;
 	width: 50%;
 	margin-right: 25%;
-	
 }
+
+
 
 .progress {
 	margin-bottom: 1em;
+}
+
+th, td {
+	border-bottom: 1px solid #ddd;
+	margin-left:4em;
+	width: 50%;
 }
 
 
